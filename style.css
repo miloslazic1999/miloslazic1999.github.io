@@ -223,7 +223,6 @@ header > a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
 }
 
 .footerlevo > a {
