@@ -134,6 +134,10 @@ header > a:hover {
     height: 40pt;
 }
 
+svg {
+    padding: 5pt;
+}
+
 .ikonica > path {
     fill: white;
 }
