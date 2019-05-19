@@ -211,15 +211,14 @@ header > a:hover {
 
 .footerlevo {
     padding-top: 10pt;
-    margin-left: 50pt;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
-
+footer {
+    background: rgb(32, 32, 32);
+    color: white;
+}
 .footerdesno {
-    margin-right: 50pt;
-    margin-left: 50pt;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,17 +235,21 @@ header > a:hover {
 .linija {
     width: 1px;
     height: 80%;
-    background: black;
+    background: white;
 }
 
-footer {
-    background: rgb(32, 32, 32);
-    height: 50vh;
+.footer-flex {
+    height: 60vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 40pt;
 }
-
+.ispodfoot{
+    text-align: center;
+    padding: 20px;
+}
 .footerlevo, .footerdesno {
     flex: 1;
+    padding: 40pt;
 }
